@@ -1,0 +1,27 @@
+{
+  "name": "time-cross-koa",
+  "version": "1.0.0",
+  "main": "bin/www.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=dev nodemon bin/www.js"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "koa-compose": "^4.1.0",
+    "koa-router": "^10.0.0",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5",
+    "sequelize-cli": "^6.2.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.11.6",
+    "@types/koa-router": "^7.4.1",
+    "@types/sequelize": "^4.28.9",
+    "defer-to-connect": "^2.0.0",
+    "nodemon": "^2.0.6"
+  }
+}
